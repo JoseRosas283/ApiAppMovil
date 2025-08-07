@@ -1,0 +1,349 @@
+[
+  {
+    "ContainingType": "Abarrotes.Controllers.DetalleVentaController",
+    "Method": "ListaDetalleVenta",
+    "RelativePath": "api/DetalleVenta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.DetalleVentaController",
+    "Method": "RegistrarDetalleVenta",
+    "RelativePath": "api/DetalleVenta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "detalleventaDTO",
+        "Type": "Abarrotes.DTO.DetalleVentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.DetalleVentaController",
+    "Method": "EliminarDetalleVenta",
+    "RelativePath": "api/DetalleVenta/deletedetalleVenta/{productoId}/{ventaId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ventaId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.DetalleVentaController",
+    "Method": "ObtenerDetalleVenta",
+    "RelativePath": "api/DetalleVenta/getDetalleVenta/{productoId}/{ventaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ventaId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.DetalleVentaController",
+    "Method": "ActualizarDetalleVenta",
+    "RelativePath": "api/DetalleVenta/PutdetalleVentas/{productoId}/{ventaId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ventaId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "detalleventadto",
+        "Type": "Abarrotes.DTO.DetalleEmergenciaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.ProductoController",
+    "Method": "ListaProductos",
+    "RelativePath": "api/Producto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.ProductoController",
+    "Method": "GuardarProducto",
+    "RelativePath": "api/Producto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoDTO",
+        "Type": "Abarrotes.DTO.ProductoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.ProductoController",
+    "Method": "eliminarProductos",
+    "RelativePath": "api/Producto/deleteproductos/{productoId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.ProductoController",
+    "Method": "ObtenerUsuario",
+    "RelativePath": "api/Producto/getProducto/{productoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.ProductoController",
+    "Method": "ActualizarProductos",
+    "RelativePath": "api/Producto/putProductos/{productoId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productoId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "productoDTO",
+        "Type": "Abarrotes.DTO.ProductoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.UsuarioController",
+    "Method": "ListaUsuarios",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.UsuarioController",
+    "Method": "GuardarUsuario",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioDTO",
+        "Type": "Abarrotes.DTO.UsuarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.UsuarioController",
+    "Method": "eliminarUsuarios",
+    "RelativePath": "api/Usuario/deleteUsuarios/{usuarioId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.UsuarioController",
+    "Method": "ObtenerUsuario",
+    "RelativePath": "api/Usuario/getUsuario/{usuarioId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.UsuarioController",
+    "Method": "Login",
+    "RelativePath": "api/Usuario/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "Abarrotes.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.UsuarioController",
+    "Method": "ActualizarUsuarios",
+    "RelativePath": "api/Usuario/putUsuarios/{usuarioId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuarioDTO",
+        "Type": "Abarrotes.DTO.UsuarioUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.VentaController",
+    "Method": "ListaVentas",
+    "RelativePath": "api/Venta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.VentaController",
+    "Method": "RegistrarVenta",
+    "RelativePath": "api/Venta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ventaDTO",
+        "Type": "Abarrotes.DTO.VentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.VentaController",
+    "Method": "eliminarUsuarios",
+    "RelativePath": "api/Venta/deleteVentas/{ventaId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ventaId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.VentaController",
+    "Method": "ObtenerUsuario",
+    "RelativePath": "api/Venta/getVentas/{ventaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ventaId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.VentaController",
+    "Method": "ActualizarVenta",
+    "RelativePath": "api/Venta/putVentas/{ventaid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ventaid",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "ventaDTO",
+        "Type": "Abarrotes.DTO.VentaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
