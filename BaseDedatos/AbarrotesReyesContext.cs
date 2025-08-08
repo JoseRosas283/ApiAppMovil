@@ -15,6 +15,8 @@ namespace Abarrotes.BaseDedatos
 
         public virtual DbSet<DetalleVentaEntity> DetalleVentas { get; set; }
 
+        public virtual DbSet<VistaDetalleVentaEntity> VistaDetalleVentas { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -94,9 +96,12 @@ namespace Abarrotes.BaseDedatos
 
             });
 
+            modelBuilder.Entity<VistaDetalleVentaEntity>()
+            .HasNoKey()
+            .ToView("vista_detalle_ventas");
 
-            }
         }
+    }
     }
 
 

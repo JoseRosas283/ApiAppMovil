@@ -361,5 +361,67 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.VentasAgrupadasController",
+    "Method": "ObtenerTodos",
+    "RelativePath": "api/VentasAgrupadas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.VentasAgrupadasController",
+    "Method": "ObtenerVentasAgrupadas",
+    "RelativePath": "api/VentasAgrupadas/agrupadas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.VentasAgrupadasController",
+    "Method": "FiltrarPorVenta",
+    "RelativePath": "api/VentasAgrupadas/porVenta/{ventaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ventaId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.VistaDetalleVentaController",
+    "Method": "ObtenerTodos",
+    "RelativePath": "api/VistaDetalleVenta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.VistaDetalleVentaController",
+    "Method": "FiltrarPorVenta",
+    "RelativePath": "api/VistaDetalleVenta/porVenta/{ventaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ventaId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
