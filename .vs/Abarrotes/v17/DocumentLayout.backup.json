@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\josea\\Documents\\APIs_VisualStudio\\Abarrotes-master\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6412E9DB-1F7F-764E-E5F9-05486AAC6B19}|Abarrotes.csproj|c:\\users\\josea\\documents\\apis_visualstudio\\abarrotes-master\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6412E9DB-1F7F-764E-E5F9-05486AAC6B19}|Abarrotes.csproj|solutionrelative:controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6412E9DB-1F7F-764E-E5F9-05486AAC6B19}|Abarrotes.csproj|c:\\users\\josea\\documents\\apis_visualstudio\\abarrotes-master\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6412E9DB-1F7F-764E-E5F9-05486AAC6B19}|Abarrotes.csproj|solutionrelative:controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6412E9DB-1F7F-764E-E5F9-05486AAC6B19}|Abarrotes.csproj|c:\\users\\josea\\documents\\apis_visualstudio\\abarrotes-master\\dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6412E9DB-1F7F-764E-E5F9-05486AAC6B19}|Abarrotes.csproj|solutionrelative:dto\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,11 +50,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "VentaController.cs",
+              "DocumentMoniker": "C:\\Users\\josea\\Documents\\APIs_VisualStudio\\Abarrotes-master\\Controllers\\VentaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VentaController.cs",
+              "ToolTip": "C:\\Users\\josea\\Documents\\APIs_VisualStudio\\Abarrotes-master\\Controllers\\VentaController.cs",
+              "RelativeToolTip": "Controllers\\VentaController.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:49:15.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\josea\\Documents\\APIs_VisualStudio\\Abarrotes-master\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\josea\\Documents\\APIs_VisualStudio\\Abarrotes-master\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAqwK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T18:49:04.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UsuarioEntity.cs",
               "DocumentMoniker": "C:\\Users\\josea\\Documents\\APIs_VisualStudio\\Abarrotes-master\\Models\\UsuarioEntity.cs",
               "RelativeDocumentMoniker": "Models\\UsuarioEntity.cs",
@@ -58,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\josea\\Documents\\APIs_VisualStudio\\Abarrotes-master\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -66,12 +99,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T16:04:49.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T16:04:49.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\josea\\Documents\\APIs_VisualStudio\\Abarrotes-master\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
@@ -83,20 +115,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UsuarioDTO.cs",
               "DocumentMoniker": "C:\\Users\\josea\\Documents\\APIs_VisualStudio\\Abarrotes-master\\DTO\\UsuarioDTO.cs",
               "RelativeDocumentMoniker": "DTO\\UsuarioDTO.cs",
               "ToolTip": "C:\\Users\\josea\\Documents\\APIs_VisualStudio\\Abarrotes-master\\DTO\\UsuarioDTO.cs",
               "RelativeToolTip": "DTO\\UsuarioDTO.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA5wA8AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T16:04:32.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T16:04:32.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "DetalleVentaController.cs",
               "DocumentMoniker": "C:\\Users\\josea\\Documents\\APIs_VisualStudio\\Abarrotes-master\\Controllers\\DetalleVentaController.cs",
               "RelativeDocumentMoniker": "Controllers\\DetalleVentaController.cs",
@@ -108,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AbarrotesReyesContext.cs",
               "DocumentMoniker": "C:\\Users\\josea\\Documents\\APIs_VisualStudio\\Abarrotes-master\\BaseDedatos\\AbarrotesReyesContext.cs",
               "RelativeDocumentMoniker": "BaseDedatos\\AbarrotesReyesContext.cs",
@@ -120,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\josea\\Documents\\APIs_VisualStudio\\Abarrotes-master\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -132,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Abarrotes.http",
               "DocumentMoniker": "C:\\Users\\josea\\Documents\\APIs_VisualStudio\\Abarrotes-master\\Abarrotes.http",
               "RelativeDocumentMoniker": "Abarrotes.http",

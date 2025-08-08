@@ -265,3 +265,4 @@ C:\Users\josea\Documents\APIs_VisualStudio\Abarrotes-master\obj\Debug\net8.0\Aba
 C:\Users\josea\Documents\APIs_VisualStudio\Abarrotes-master\obj\Debug\net8.0\ref\Abarrotes.dll
 C:\Users\josea\Documents\APIs_VisualStudio\Abarrotes-master\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\josea\Documents\APIs_VisualStudio\Abarrotes-master\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\josea\Documents\APIs_VisualStudio\Abarrotes-master\obj\Debug\net8.0\Abarrotes.sourcelink.json

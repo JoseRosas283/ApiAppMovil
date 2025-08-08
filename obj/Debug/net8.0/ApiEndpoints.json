@@ -153,6 +153,22 @@
   },
   {
     "ContainingType": "Abarrotes.Controllers.ProductoController",
+    "Method": "ObtenerProductoPorCodigo",
+    "RelativePath": "api/Producto/getProductoPorCodigo/{codigo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Abarrotes.Controllers.ProductoController",
     "Method": "ActualizarProductos",
     "RelativePath": "api/Producto/putProductos/{productoId}",
     "HttpMethod": "PUT",

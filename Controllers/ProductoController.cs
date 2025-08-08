@@ -44,12 +44,12 @@ namespace Abarrotes.Controllers
 
         public async Task<ActionResult> ObtenerUsuario(string productoId)
         {
-            var usuario = await _context.Productos.FirstOrDefaultAsync(u => u.ProductoId == productoId);
-            if (usuario == null)
+            var producto = await _context.Productos.FirstOrDefaultAsync(u => u.ProductoId == productoId);
+            if (producto == null)
             {
                 return NotFound(new { Mensaje = "Producto no encontrado" });
             }
-            return Ok(new { Mensaje = "Producto encontrado", Usuario = usuario });
+            return Ok(new { Mensaje = "Producto encontrado", Producto = producto });
         }
 
         [HttpPost]
@@ -175,9 +175,19 @@ namespace Abarrotes.Controllers
 
         }
 
+        [HttpGet("getProductoPorCodigo/{codigo}")]
+        public async Task<ActionResult> ObtenerProductoPorCodigo(string codigo)
+        {
+            var producto = await _context.Productos
+                .FirstOrDefaultAsync(p => p.CodigoProducto == codigo);
 
+            if (producto == null)
+            {
+                return NotFound(new { Mensaje = "Producto no encontrado por código." });
+            }
 
-
+            return Ok(new { Mensaje = "Producto encontrado", Producto = producto });
+        }
 
     }
 }
