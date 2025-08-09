@@ -74,8 +74,7 @@
               "RelativeToolTip": "BaseDedatos\\AbarrotesReyesContext.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAAABEAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T04:47:28.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T04:47:28.363Z"
             },
             {
               "$type": "Document",
@@ -85,7 +84,7 @@
               "RelativeDocumentMoniker": "Controllers\\VistaDetalleVentaController.cs",
               "ToolTip": "C:\\Users\\josea\\Documents\\APIs_VisualStudio\\Abarrotes-master\\Controllers\\VistaDetalleVentaController.cs",
               "RelativeToolTip": "Controllers\\VistaDetalleVentaController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAiwCEAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T06:26:44.028Z",
               "EditorCaption": ""
@@ -100,8 +99,7 @@
               "RelativeToolTip": "Models\\VistaDetalleVentaEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T06:34:01.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T06:34:01.852Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "Controllers\\VentasAgrupadasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T06:32:19.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-08T06:32:19.274Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "Controllers\\ProductoController.cs",
               "ViewState": "AgIAAIYAAAAAAAAAAAAqwKgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T18:49:04.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-07T18:49:04.534Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "DTO\\UsuarioDTO.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T16:04:32.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T16:04:32.214Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "Models\\UsuarioEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T16:04:42.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T16:04:42.74Z"
             },
             {
               "$type": "Document",
